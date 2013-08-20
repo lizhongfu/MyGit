@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/fxgzappone/!svn/ver/159/1/Developer/IOS/SocketHomework/Socket/TestAsyncSocket/TestUdp/TestUdpClient
+END
+main.m
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/fxgzappone/!svn/ver/159/1/Developer/IOS/SocketHomework/Socket/TestAsyncSocket/TestUdp/TestUdpClient/main.m
+END
+AsyncUdpSocket.h
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/fxgzappone/!svn/ver/159/1/Developer/IOS/SocketHomework/Socket/TestAsyncSocket/TestUdp/TestUdpClient/AsyncUdpSocket.h
+END
+TestUdpClientAppDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/fxgzappone/!svn/ver/159/1/Developer/IOS/SocketHomework/Socket/TestAsyncSocket/TestUdp/TestUdpClient/TestUdpClientAppDelegate.h
+END
+AsyncUdpSocket.m
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/fxgzappone/!svn/ver/159/1/Developer/IOS/SocketHomework/Socket/TestAsyncSocket/TestUdp/TestUdpClient/AsyncUdpSocket.m
+END
+TestUdpClient-Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/fxgzappone/!svn/ver/159/1/Developer/IOS/SocketHomework/Socket/TestAsyncSocket/TestUdp/TestUdpClient/TestUdpClient-Info.plist
+END
+TestUdpClient-Prefix.pch
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/fxgzappone/!svn/ver/159/1/Developer/IOS/SocketHomework/Socket/TestAsyncSocket/TestUdp/TestUdpClient/TestUdpClient-Prefix.pch
+END
+TestUdpClientAppDelegate.mm
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/fxgzappone/!svn/ver/159/1/Developer/IOS/SocketHomework/Socket/TestAsyncSocket/TestUdp/TestUdpClient/TestUdpClientAppDelegate.mm
+END

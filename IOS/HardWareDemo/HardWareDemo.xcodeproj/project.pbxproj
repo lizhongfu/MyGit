@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C3CC40161708693D00263656 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3CC40151708693D00263656 /* UIKit.framework */; };
+		C3CC40181708693D00263656 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3CC40171708693D00263656 /* Foundation.framework */; };
+		C3CC401A1708693D00263656 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3CC40191708693D00263656 /* CoreGraphics.framework */; };
+		C3CC40201708693D00263656 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C3CC401E1708693D00263656 /* InfoPlist.strings */; };
+		C3CC40221708693D00263656 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3CC40211708693D00263656 /* main.m */; };
+		C3CC40261708693D00263656 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3CC40251708693D00263656 /* AppDelegate.m */; };
+		C3CC40281708693D00263656 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C3CC40271708693D00263656 /* Default.png */; };
+		C3CC402A1708693D00263656 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C3CC40291708693D00263656 /* Default@2x.png */; };
+		C3CC402C1708693D00263656 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C3CC402B1708693D00263656 /* Default-568h@2x.png */; };
+		C3CC402F1708693D00263656 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3CC402E1708693D00263656 /* ViewController.m */; };
+		C3CC40321708693D00263656 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3CC40301708693D00263656 /* ViewController.xib */; };
+		C3CC40411708696300263656 /* RFGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = C3CC403B1708696300263656 /* RFGeometry.m */; };
+		C3CC40421708696300263656 /* RFPerformance.m in Sources */ = {isa = PBXBuildFile; fileRef = C3CC403F1708696300263656 /* RFPerformance.m */; };
+		C3CC40481708697700263656 /* RFAlloctionProxyButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C3CC40451708697700263656 /* RFAlloctionProxyButton.m */; };
+		C3CC40491708697700263656 /* RFAlloctionProxyView.m in Sources */ = {isa = PBXBuildFile; fileRef = C3CC40471708697700263656 /* RFAlloctionProxyView.m */; };
+		C3CC404D1708699D00263656 /* UncaughtExceptionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = C3CC404C1708699D00263656 /* UncaughtExceptionHandler.m */; };
+		C3CC4050170869CA00263656 /* dout.m in Sources */ = {isa = PBXBuildFile; fileRef = C3CC404F170869CA00263656 /* dout.m */; };
+		C3CC406A17086A1200263656 /* NSArray+RFKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C3CC405517086A1200263656 /* NSArray+RFKit.m */; };
+		C3CC406B17086A1200263656 /* NSBundle+RFKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C3CC405717086A1200263656 /* NSBundle+RFKit.m */; };
+		C3CC406C17086A1200263656 /* NSDate+RFKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C3CC405917086A1200263656 /* NSDate+RFKit.m */; };
+		C3CC406D17086A1200263656 /* NSDateFormatter+RFKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C3CC405B17086A1200263656 /* NSDateFormatter+RFKit.m */; };
+		C3CC406E17086A1200263656 /* NSDictionary+RFKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C3CC405D17086A1200263656 /* NSDictionary+RFKit.m */; };
+		C3CC406F17086A1200263656 /* NSFileManager+RFKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C3CC405F17086A1200263656 /* NSFileManager+RFKit.m */; };
+		C3CC407017086A1200263656 /* NSJSONSerialization+RFKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C3CC406117086A1200263656 /* NSJSONSerialization+RFKit.m */; };
+		C3CC407117086A1200263656 /* NSNumberFormatter+RFKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C3CC406317086A1200263656 /* NSNumberFormatter+RFKit.m */; };
+		C3CC407217086A1200263656 /* NSObject+RFKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C3CC406517086A1200263656 /* NSObject+RFKit.m */; };
+		C3CC407317086A1200263656 /* NSString+RFKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C3CC406717086A1200263656 /* NSString+RFKit.m */; };
+		C3CC407417086A1200263656 /* NSURL+RFKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C3CC406917086A1200263656 /* NSURL+RFKit.m */; };
+		C3CC408717086A1E00263656 /* UIAlertView+RFKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C3CC407617086A1E00263656 /* UIAlertView+RFKit.m */; };
+		C3CC408817086A1E00263656 /* UIButton+RFKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C3CC407817086A1E00263656 /* UIButton+RFKit.m */; };
+		C3CC408917086A1E00263656 /* UIColor+RFKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C3CC407A17086A1E00263656 /* UIColor+RFKit.m */; };
+		C3CC408A17086A1E00263656 /* UIDevice+RFKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C3CC407C17086A1E00263656 /* UIDevice+RFKit.m */; };
+		C3CC408B17086A1E00263656 /* UIImage+RFKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C3CC407E17086A1E00263656 /* UIImage+RFKit.m */; };
+		C3CC408C17086A1E00263656 /* UIStoryboard+RFKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C3CC408017086A1E00263656 /* UIStoryboard+RFKit.m */; };
+		C3CC408D17086A1E00263656 /* UIView+RFKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C3CC408217086A1E00263656 /* UIView+RFKit.m */; };
+		C3CC408E17086A1E00263656 /* UIViewController+RFKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C3CC408417086A1E00263656 /* UIViewController+RFKit.m */; };
+		C3CC408F17086A1E00263656 /* UIWebView+RFKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C3CC408617086A1E00263656 /* UIWebView+RFKit.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C3CC40121708693D00263656 /* HardWareDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HardWareDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3CC40151708693D00263656 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C3CC40171708693D00263656 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C3CC40191708693D00263656 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C3CC401D1708693D00263656 /* HardWareDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HardWareDemo-Info.plist"; sourceTree = "<group>"; };
+		C3CC401F1708693D00263656 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C3CC40211708693D00263656 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C3CC40231708693D00263656 /* HardWareDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HardWareDemo-Prefix.pch"; sourceTree = "<group>"; };
+		C3CC40241708693D00263656 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C3CC40251708693D00263656 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C3CC40271708693D00263656 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C3CC40291708693D00263656 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		C3CC402B1708693D00263656 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C3CC402D1708693D00263656 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C3CC402E1708693D00263656 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C3CC40311708693D00263656 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		C3CC40391708696300263656 /* RFARC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFARC.h; sourceTree = "<group>"; };
+		C3CC403A1708696300263656 /* RFGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFGeometry.h; sourceTree = "<group>"; };
+		C3CC403B1708696300263656 /* RFGeometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFGeometry.m; sourceTree = "<group>"; };
+		C3CC403C1708696300263656 /* RFKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFKit.h; sourceTree = "<group>"; };
+		C3CC403D1708696300263656 /* RFKitDefaultCategories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFKitDefaultCategories.h; sourceTree = "<group>"; };
+		C3CC403E1708696300263656 /* RFPerformance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFPerformance.h; sourceTree = "<group>"; };
+		C3CC403F1708696300263656 /* RFPerformance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFPerformance.m; sourceTree = "<group>"; };
+		C3CC40401708696300263656 /* RFRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFRuntime.h; sourceTree = "<group>"; };
+		C3CC40441708697700263656 /* RFAlloctionProxyButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFAlloctionProxyButton.h; sourceTree = "<group>"; };
+		C3CC40451708697700263656 /* RFAlloctionProxyButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFAlloctionProxyButton.m; sourceTree = "<group>"; };
+		C3CC40461708697700263656 /* RFAlloctionProxyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFAlloctionProxyView.h; sourceTree = "<group>"; };
+		C3CC40471708697700263656 /* RFAlloctionProxyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFAlloctionProxyView.m; sourceTree = "<group>"; };
+		C3CC404B1708699D00263656 /* UncaughtExceptionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UncaughtExceptionHandler.h; sourceTree = "<group>"; };
+		C3CC404C1708699D00263656 /* UncaughtExceptionHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UncaughtExceptionHandler.m; sourceTree = "<group>"; };
+		C3CC404E170869CA00263656 /* dout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dout.h; sourceTree = "<group>"; };
+		C3CC404F170869CA00263656 /* dout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dout.m; sourceTree = "<group>"; };
+		C3CC405417086A1200263656 /* NSArray+RFKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+RFKit.h"; sourceTree = "<group>"; };
+		C3CC405517086A1200263656 /* NSArray+RFKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+RFKit.m"; sourceTree = "<group>"; };
+		C3CC405617086A1200263656 /* NSBundle+RFKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+RFKit.h"; sourceTree = "<group>"; };
+		C3CC405717086A1200263656 /* NSBundle+RFKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+RFKit.m"; sourceTree = "<group>"; };
+		C3CC405817086A1200263656 /* NSDate+RFKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+RFKit.h"; sourceTree = "<group>"; };
+		C3CC405917086A1200263656 /* NSDate+RFKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+RFKit.m"; sourceTree = "<group>"; };
+		C3CC405A17086A1200263656 /* NSDateFormatter+RFKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDateFormatter+RFKit.h"; sourceTree = "<group>"; };
+		C3CC405B17086A1200263656 /* NSDateFormatter+RFKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDateFormatter+RFKit.m"; sourceTree = "<group>"; };
+		C3CC405C17086A1200263656 /* NSDictionary+RFKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+RFKit.h"; sourceTree = "<group>"; };
+		C3CC405D17086A1200263656 /* NSDictionary+RFKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+RFKit.m"; sourceTree = "<group>"; };
+		C3CC405E17086A1200263656 /* NSFileManager+RFKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+RFKit.h"; sourceTree = "<group>"; };
+		C3CC405F17086A1200263656 /* NSFileManager+RFKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+RFKit.m"; sourceTree = "<group>"; };
+		C3CC406017086A1200263656 /* NSJSONSerialization+RFKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSJSONSerialization+RFKit.h"; sourceTree = "<group>"; };
+		C3CC406117086A1200263656 /* NSJSONSerialization+RFKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSJSONSerialization+RFKit.m"; sourceTree = "<group>"; };
+		C3CC406217086A1200263656 /* NSNumberFormatter+RFKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumberFormatter+RFKit.h"; sourceTree = "<group>"; };
+		C3CC406317086A1200263656 /* NSNumberFormatter+RFKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumberFormatter+RFKit.m"; sourceTree = "<group>"; };
+		C3CC406417086A1200263656 /* NSObject+RFKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+RFKit.h"; sourceTree = "<group>"; };
+		C3CC406517086A1200263656 /* NSObject+RFKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+RFKit.m"; sourceTree = "<group>"; };
+		C3CC406617086A1200263656 /* NSString+RFKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+RFKit.h"; sourceTree = "<group>"; };
+		C3CC406717086A1200263656 /* NSString+RFKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+RFKit.m"; sourceTree = "<group>"; };
+		C3CC406817086A1200263656 /* NSURL+RFKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+RFKit.h"; sourceTree = "<group>"; };
+		C3CC406917086A1200263656 /* NSURL+RFKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+RFKit.m"; sourceTree = "<group>"; };
+		C3CC407517086A1E00263656 /* UIAlertView+RFKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+RFKit.h"; sourceTree = "<group>"; };
+		C3CC407617086A1E00263656 /* UIAlertView+RFKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+RFKit.m"; sourceTree = "<group>"; };
+		C3CC407717086A1E00263656 /* UIButton+RFKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+RFKit.h"; sourceTree = "<group>"; };
+		C3CC407817086A1E00263656 /* UIButton+RFKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+RFKit.m"; sourceTree = "<group>"; };
+		C3CC407917086A1E00263656 /* UIColor+RFKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+RFKit.h"; sourceTree = "<group>"; };
+		C3CC407A17086A1E00263656 /* UIColor+RFKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+RFKit.m"; sourceTree = "<group>"; };
+		C3CC407B17086A1E00263656 /* UIDevice+RFKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+RFKit.h"; sourceTree = "<group>"; };
+		C3CC407C17086A1E00263656 /* UIDevice+RFKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+RFKit.m"; sourceTree = "<group>"; };
+		C3CC407D17086A1E00263656 /* UIImage+RFKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+RFKit.h"; sourceTree = "<group>"; };
+		C3CC407E17086A1E00263656 /* UIImage+RFKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RFKit.m"; sourceTree = "<group>"; };
+		C3CC407F17086A1E00263656 /* UIStoryboard+RFKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIStoryboard+RFKit.h"; sourceTree = "<group>"; };
+		C3CC408017086A1E00263656 /* UIStoryboard+RFKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIStoryboard+RFKit.m"; sourceTree = "<group>"; };
+		C3CC408117086A1E00263656 /* UIView+RFKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+RFKit.h"; sourceTree = "<group>"; };
+		C3CC408217086A1E00263656 /* UIView+RFKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+RFKit.m"; sourceTree = "<group>"; };
+		C3CC408317086A1E00263656 /* UIViewController+RFKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+RFKit.h"; sourceTree = "<group>"; };
+		C3CC408417086A1E00263656 /* UIViewController+RFKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+RFKit.m"; sourceTree = "<group>"; };
+		C3CC408517086A1E00263656 /* UIWebView+RFKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+RFKit.h"; sourceTree = "<group>"; };
+		C3CC408617086A1E00263656 /* UIWebView+RFKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+RFKit.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3CC400F1708693D00263656 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3CC40161708693D00263656 /* UIKit.framework in Frameworks */,
+				C3CC40181708693D00263656 /* Foundation.framework in Frameworks */,
+				C3CC401A1708693D00263656 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C3CC40091708693D00263656 = {
+			isa = PBXGroup;
+			children = (
+				C3CC401B1708693D00263656 /* HardWareDemo */,
+				C3CC40141708693D00263656 /* Frameworks */,
+				C3CC40131708693D00263656 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C3CC40131708693D00263656 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3CC40121708693D00263656 /* HardWareDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3CC40141708693D00263656 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3CC40151708693D00263656 /* UIKit.framework */,
+				C3CC40171708693D00263656 /* Foundation.framework */,
+				C3CC40191708693D00263656 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3CC401B1708693D00263656 /* HardWareDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C3CC4051170869E300263656 /* category */,
+				C3CC404E170869CA00263656 /* dout.h */,
+				C3CC404F170869CA00263656 /* dout.m */,
+				C3CC404A1708698C00263656 /* UncaughtExceptionHandler */,
+				C3CC40431708696C00263656 /* RFAlloctionProxy */,
+				C3CC40381708695300263656 /* test */,
+				C3CC40241708693D00263656 /* AppDelegate.h */,
+				C3CC40251708693D00263656 /* AppDelegate.m */,
+				C3CC402D1708693D00263656 /* ViewController.h */,
+				C3CC402E1708693D00263656 /* ViewController.m */,
+				C3CC40301708693D00263656 /* ViewController.xib */,
+				C3CC401C1708693D00263656 /* Supporting Files */,
+			);
+			path = HardWareDemo;
+			sourceTree = "<group>";
+		};
+		C3CC401C1708693D00263656 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C3CC401D1708693D00263656 /* HardWareDemo-Info.plist */,
+				C3CC401E1708693D00263656 /* InfoPlist.strings */,
+				C3CC40211708693D00263656 /* main.m */,
+				C3CC40231708693D00263656 /* HardWareDemo-Prefix.pch */,
+				C3CC40271708693D00263656 /* Default.png */,
+				C3CC40291708693D00263656 /* Default@2x.png */,
+				C3CC402B1708693D00263656 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C3CC40381708695300263656 /* test */ = {
+			isa = PBXGroup;
+			children = (
+				C3CC40391708696300263656 /* RFARC.h */,
+				C3CC403A1708696300263656 /* RFGeometry.h */,
+				C3CC403B1708696300263656 /* RFGeometry.m */,
+				C3CC403C1708696300263656 /* RFKit.h */,
+				C3CC403D1708696300263656 /* RFKitDefaultCategories.h */,
+				C3CC403E1708696300263656 /* RFPerformance.h */,
+				C3CC403F1708696300263656 /* RFPerformance.m */,
+				C3CC40401708696300263656 /* RFRuntime.h */,
+			);
+			name = test;
+			sourceTree = "<group>";
+		};
+		C3CC40431708696C00263656 /* RFAlloctionProxy */ = {
+			isa = PBXGroup;
+			children = (
+				C3CC40441708697700263656 /* RFAlloctionProxyButton.h */,
+				C3CC40451708697700263656 /* RFAlloctionProxyButton.m */,
+				C3CC40461708697700263656 /* RFAlloctionProxyView.h */,
+				C3CC40471708697700263656 /* RFAlloctionProxyView.m */,
+			);
+			name = RFAlloctionProxy;
+			sourceTree = "<group>";
+		};
+		C3CC404A1708698C00263656 /* UncaughtExceptionHandler */ = {
+			isa = PBXGroup;
+			children = (
+				C3CC404B1708699D00263656 /* UncaughtExceptionHandler.h */,
+				C3CC404C1708699D00263656 /* UncaughtExceptionHandler.m */,
+			);
+			name = UncaughtExceptionHandler;
+			sourceTree = "<group>";
+		};
+		C3CC4051170869E300263656 /* category */ = {
+			isa = PBXGroup;
+			children = (
+				C3CC4053170869F500263656 /* UIKit */,
+				C3CC4052170869EC00263656 /* Foundation */,
+			);
+			name = category;
+			sourceTree = "<group>";
+		};
+		C3CC4052170869EC00263656 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				C3CC405417086A1200263656 /* NSArray+RFKit.h */,
+				C3CC405517086A1200263656 /* NSArray+RFKit.m */,
+				C3CC405617086A1200263656 /* NSBundle+RFKit.h */,
+				C3CC405717086A1200263656 /* NSBundle+RFKit.m */,
+				C3CC405817086A1200263656 /* NSDate+RFKit.h */,
+				C3CC405917086A1200263656 /* NSDate+RFKit.m */,
+				C3CC405A17086A1200263656 /* NSDateFormatter+RFKit.h */,
+				C3CC405B17086A1200263656 /* NSDateFormatter+RFKit.m */,
+				C3CC405C17086A1200263656 /* NSDictionary+RFKit.h */,
+				C3CC405D17086A1200263656 /* NSDictionary+RFKit.m */,
+				C3CC405E17086A1200263656 /* NSFileManager+RFKit.h */,
+				C3CC405F17086A1200263656 /* NSFileManager+RFKit.m */,
+				C3CC406017086A1200263656 /* NSJSONSerialization+RFKit.h */,
+				C3CC406117086A1200263656 /* NSJSONSerialization+RFKit.m */,
+				C3CC406217086A1200263656 /* NSNumberFormatter+RFKit.h */,
+				C3CC406317086A1200263656 /* NSNumberFormatter+RFKit.m */,
+				C3CC406417086A1200263656 /* NSObject+RFKit.h */,
+				C3CC406517086A1200263656 /* NSObject+RFKit.m */,
+				C3CC406617086A1200263656 /* NSString+RFKit.h */,
+				C3CC406717086A1200263656 /* NSString+RFKit.m */,
+				C3CC406817086A1200263656 /* NSURL+RFKit.h */,
+				C3CC406917086A1200263656 /* NSURL+RFKit.m */,
+			);
+			name = Foundation;
+			sourceTree = "<group>";
+		};
+		C3CC4053170869F500263656 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				C3CC407517086A1E00263656 /* UIAlertView+RFKit.h */,
+				C3CC407617086A1E00263656 /* UIAlertView+RFKit.m */,
+				C3CC407717086A1E00263656 /* UIButton+RFKit.h */,
+				C3CC407817086A1E00263656 /* UIButton+RFKit.m */,
+				C3CC407917086A1E00263656 /* UIColor+RFKit.h */,
+				C3CC407A17086A1E00263656 /* UIColor+RFKit.m */,
+				C3CC407B17086A1E00263656 /* UIDevice+RFKit.h */,
+				C3CC407C17086A1E00263656 /* UIDevice+RFKit.m */,
+				C3CC407D17086A1E00263656 /* UIImage+RFKit.h */,
+				C3CC407E17086A1E00263656 /* UIImage+RFKit.m */,
+				C3CC407F17086A1E00263656 /* UIStoryboard+RFKit.h */,
+				C3CC408017086A1E00263656 /* UIStoryboard+RFKit.m */,
+				C3CC408117086A1E00263656 /* UIView+RFKit.h */,
+				C3CC408217086A1E00263656 /* UIView+RFKit.m */,
+				C3CC408317086A1E00263656 /* UIViewController+RFKit.h */,
+				C3CC408417086A1E00263656 /* UIViewController+RFKit.m */,
+				C3CC408517086A1E00263656 /* UIWebView+RFKit.h */,
+				C3CC408617086A1E00263656 /* UIWebView+RFKit.m */,
+			);
+			name = UIKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C3CC40111708693D00263656 /* HardWareDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3CC40351708693D00263656 /* Build configuration list for PBXNativeTarget "HardWareDemo" */;
+			buildPhases = (
+				C3CC400E1708693D00263656 /* Sources */,
+				C3CC400F1708693D00263656 /* Frameworks */,
+				C3CC40101708693D00263656 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HardWareDemo;
+			productName = HardWareDemo;
+			productReference = C3CC40121708693D00263656 /* HardWareDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C3CC400A1708693D00263656 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Zogful.Lee;
+			};
+			buildConfigurationList = C3CC400D1708693D00263656 /* Build configuration list for PBXProject "HardWareDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C3CC40091708693D00263656;
+			productRefGroup = C3CC40131708693D00263656 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3CC40111708693D00263656 /* HardWareDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C3CC40101708693D00263656 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3CC40201708693D00263656 /* InfoPlist.strings in Resources */,
+				C3CC40281708693D00263656 /* Default.png in Resources */,
+				C3CC402A1708693D00263656 /* Default@2x.png in Resources */,
+				C3CC402C1708693D00263656 /* Default-568h@2x.png in Resources */,
+				C3CC40321708693D00263656 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3CC400E1708693D00263656 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3CC40221708693D00263656 /* main.m in Sources */,
+				C3CC40261708693D00263656 /* AppDelegate.m in Sources */,
+				C3CC402F1708693D00263656 /* ViewController.m in Sources */,
+				C3CC40411708696300263656 /* RFGeometry.m in Sources */,
+				C3CC40421708696300263656 /* RFPerformance.m in Sources */,
+				C3CC40481708697700263656 /* RFAlloctionProxyButton.m in Sources */,
+				C3CC40491708697700263656 /* RFAlloctionProxyView.m in Sources */,
+				C3CC404D1708699D00263656 /* UncaughtExceptionHandler.m in Sources */,
+				C3CC4050170869CA00263656 /* dout.m in Sources */,
+				C3CC406A17086A1200263656 /* NSArray+RFKit.m in Sources */,
+				C3CC406B17086A1200263656 /* NSBundle+RFKit.m in Sources */,
+				C3CC406C17086A1200263656 /* NSDate+RFKit.m in Sources */,
+				C3CC406D17086A1200263656 /* NSDateFormatter+RFKit.m in Sources */,
+				C3CC406E17086A1200263656 /* NSDictionary+RFKit.m in Sources */,
+				C3CC406F17086A1200263656 /* NSFileManager+RFKit.m in Sources */,
+				C3CC407017086A1200263656 /* NSJSONSerialization+RFKit.m in Sources */,
+				C3CC407117086A1200263656 /* NSNumberFormatter+RFKit.m in Sources */,
+				C3CC407217086A1200263656 /* NSObject+RFKit.m in Sources */,
+				C3CC407317086A1200263656 /* NSString+RFKit.m in Sources */,
+				C3CC407417086A1200263656 /* NSURL+RFKit.m in Sources */,
+				C3CC408717086A1E00263656 /* UIAlertView+RFKit.m in Sources */,
+				C3CC408817086A1E00263656 /* UIButton+RFKit.m in Sources */,
+				C3CC408917086A1E00263656 /* UIColor+RFKit.m in Sources */,
+				C3CC408A17086A1E00263656 /* UIDevice+RFKit.m in Sources */,
+				C3CC408B17086A1E00263656 /* UIImage+RFKit.m in Sources */,
+				C3CC408C17086A1E00263656 /* UIStoryboard+RFKit.m in Sources */,
+				C3CC408D17086A1E00263656 /* UIView+RFKit.m in Sources */,
+				C3CC408E17086A1E00263656 /* UIViewController+RFKit.m in Sources */,
+				C3CC408F17086A1E00263656 /* UIWebView+RFKit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C3CC401E1708693D00263656 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3CC401F1708693D00263656 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C3CC40301708693D00263656 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3CC40311708693D00263656 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C3CC40331708693D00263656 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C3CC40341708693D00263656 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C3CC40361708693D00263656 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HardWareDemo/HardWareDemo-Prefix.pch";
+				INFOPLIST_FILE = "HardWareDemo/HardWareDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C3CC40371708693D00263656 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HardWareDemo/HardWareDemo-Prefix.pch";
+				INFOPLIST_FILE = "HardWareDemo/HardWareDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C3CC400D1708693D00263656 /* Build configuration list for PBXProject "HardWareDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3CC40331708693D00263656 /* Debug */,
+				C3CC40341708693D00263656 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3CC40351708693D00263656 /* Build configuration list for PBXNativeTarget "HardWareDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3CC40361708693D00263656 /* Debug */,
+				C3CC40371708693D00263656 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C3CC400A1708693D00263656 /* Project object */;
+}

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/fxgzappone/!svn/ver/157/1/Developer/IOS/PerfromSelector/GameStartX/GameStartX/GameStartX/libs/cocos2dx/tileMap_parallax_nodes
+END
+CCTMXTiledMap.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/fxgzappone/!svn/ver/157/1/Developer/IOS/PerfromSelector/GameStartX/GameStartX/GameStartX/libs/cocos2dx/tileMap_parallax_nodes/CCTMXTiledMap.cpp
+END
+CCParallaxNode.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/fxgzappone/!svn/ver/157/1/Developer/IOS/PerfromSelector/GameStartX/GameStartX/GameStartX/libs/cocos2dx/tileMap_parallax_nodes/CCParallaxNode.cpp
+END
+CCTMXObjectGroup.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/fxgzappone/!svn/ver/157/1/Developer/IOS/PerfromSelector/GameStartX/GameStartX/GameStartX/libs/cocos2dx/tileMap_parallax_nodes/CCTMXObjectGroup.cpp
+END
+CCTileMapAtlas.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/fxgzappone/!svn/ver/157/1/Developer/IOS/PerfromSelector/GameStartX/GameStartX/GameStartX/libs/cocos2dx/tileMap_parallax_nodes/CCTileMapAtlas.cpp
+END
+CCTMXLayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/fxgzappone/!svn/ver/157/1/Developer/IOS/PerfromSelector/GameStartX/GameStartX/GameStartX/libs/cocos2dx/tileMap_parallax_nodes/CCTMXLayer.cpp
+END
+CCTMXXMLParser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/fxgzappone/!svn/ver/157/1/Developer/IOS/PerfromSelector/GameStartX/GameStartX/GameStartX/libs/cocos2dx/tileMap_parallax_nodes/CCTMXXMLParser.cpp
+END

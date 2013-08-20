@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/fxgzappone/!svn/ver/129/1/Developer/IOS/GameStartX/GameStartX/GameStartX/libs/cocos2dx/platform/ios/FontLabel
+END
+FontLabelStringDrawing.h
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/fxgzappone/!svn/ver/129/1/Developer/IOS/GameStartX/GameStartX/GameStartX/libs/cocos2dx/platform/ios/FontLabel/FontLabelStringDrawing.h
+END
+FontLabel.m
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/fxgzappone/!svn/ver/129/1/Developer/IOS/GameStartX/GameStartX/GameStartX/libs/cocos2dx/platform/ios/FontLabel/FontLabel.m
+END
+ZAttributedString.m
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/fxgzappone/!svn/ver/129/1/Developer/IOS/GameStartX/GameStartX/GameStartX/libs/cocos2dx/platform/ios/FontLabel/ZAttributedString.m
+END
+FontLabelStringDrawing.m
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/fxgzappone/!svn/ver/129/1/Developer/IOS/GameStartX/GameStartX/GameStartX/libs/cocos2dx/platform/ios/FontLabel/FontLabelStringDrawing.m
+END
+ZFont.h
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/fxgzappone/!svn/ver/129/1/Developer/IOS/GameStartX/GameStartX/GameStartX/libs/cocos2dx/platform/ios/FontLabel/ZFont.h
+END
+FontManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/fxgzappone/!svn/ver/129/1/Developer/IOS/GameStartX/GameStartX/GameStartX/libs/cocos2dx/platform/ios/FontLabel/FontManager.h
+END
+ZAttributedStringPrivate.h
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/fxgzappone/!svn/ver/129/1/Developer/IOS/GameStartX/GameStartX/GameStartX/libs/cocos2dx/platform/ios/FontLabel/ZAttributedStringPrivate.h
+END
+ZFont.m
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/fxgzappone/!svn/ver/129/1/Developer/IOS/GameStartX/GameStartX/GameStartX/libs/cocos2dx/platform/ios/FontLabel/ZFont.m
+END
+FontLabel.h
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/fxgzappone/!svn/ver/129/1/Developer/IOS/GameStartX/GameStartX/GameStartX/libs/cocos2dx/platform/ios/FontLabel/FontLabel.h
+END
+FontManager.m
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/fxgzappone/!svn/ver/129/1/Developer/IOS/GameStartX/GameStartX/GameStartX/libs/cocos2dx/platform/ios/FontLabel/FontManager.m
+END
+ZAttributedString.h
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/fxgzappone/!svn/ver/129/1/Developer/IOS/GameStartX/GameStartX/GameStartX/libs/cocos2dx/platform/ios/FontLabel/ZAttributedString.h
+END

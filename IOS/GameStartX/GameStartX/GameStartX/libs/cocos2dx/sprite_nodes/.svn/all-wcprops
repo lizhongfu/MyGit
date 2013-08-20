@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/fxgzappone/!svn/ver/129/1/Developer/IOS/GameStartX/GameStartX/GameStartX/libs/cocos2dx/sprite_nodes
+END
+CCSpriteBatchNode.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/fxgzappone/!svn/ver/129/1/Developer/IOS/GameStartX/GameStartX/GameStartX/libs/cocos2dx/sprite_nodes/CCSpriteBatchNode.cpp
+END
+CCAnimation.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/fxgzappone/!svn/ver/129/1/Developer/IOS/GameStartX/GameStartX/GameStartX/libs/cocos2dx/sprite_nodes/CCAnimation.cpp
+END
+CCSpriteFrame.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/fxgzappone/!svn/ver/129/1/Developer/IOS/GameStartX/GameStartX/GameStartX/libs/cocos2dx/sprite_nodes/CCSpriteFrame.cpp
+END
+CCAnimationCache.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/fxgzappone/!svn/ver/129/1/Developer/IOS/GameStartX/GameStartX/GameStartX/libs/cocos2dx/sprite_nodes/CCAnimationCache.cpp
+END
+CCSpriteFrameCache.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/fxgzappone/!svn/ver/129/1/Developer/IOS/GameStartX/GameStartX/GameStartX/libs/cocos2dx/sprite_nodes/CCSpriteFrameCache.cpp
+END
+CCSprite.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/fxgzappone/!svn/ver/129/1/Developer/IOS/GameStartX/GameStartX/GameStartX/libs/cocos2dx/sprite_nodes/CCSprite.cpp
+END

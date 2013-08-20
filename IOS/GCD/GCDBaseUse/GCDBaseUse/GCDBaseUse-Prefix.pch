@@ -1,0 +1,39 @@
+//
+// Prefix header for all source files of the 'GCDBaseUse' target in the 'GCDBaseUse' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import "JSONKit.h"
+    #import "GCDHelper.h"
+    #import "NetGuarder.h"
+#endif
+
+#ifndef DEMO_STRONG
+
+#if __has_feature(objc_arc)
+#define DEMO_STRONG strong
+#else
+#define DEMO_STRONG retain
+#endif
+
+#endif
+
+#ifndef MB_WEAK
+
+#if __has_feature(objc_arc_weak)
+#define DEMO_WEAK weak
+#elif __has_feature(objc_arc)
+#define DEMO_WEAK unsafe_unretained
+#else
+#define DEMO_WEAK assign
+#endif
+
+#endif

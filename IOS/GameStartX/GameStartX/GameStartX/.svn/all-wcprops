@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/fxgzappone/!svn/ver/129/1/Developer/IOS/GameStartX/GameStartX/GameStartX
+END
+hero.png
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/fxgzappone/!svn/ver/129/1/Developer/IOS/GameStartX/GameStartX/GameStartX/hero.png
+END
+Hero.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/fxgzappone/!svn/ver/129/1/Developer/IOS/GameStartX/GameStartX/GameStartX/Hero.h
+END
+GameLayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/fxgzappone/!svn/ver/129/1/Developer/IOS/GameStartX/GameStartX/GameStartX/GameLayer.cpp
+END
+terrain.png
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/fxgzappone/!svn/ver/129/1/Developer/IOS/GameStartX/GameStartX/GameStartX/terrain.png
+END
+GameMap.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/fxgzappone/!svn/ver/129/1/Developer/IOS/GameStartX/GameStartX/GameStartX/GameMap.cpp
+END
+GameLayer.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/fxgzappone/!svn/ver/129/1/Developer/IOS/GameStartX/GameStartX/GameStartX/GameLayer.h
+END
+GameConstants.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/fxgzappone/!svn/ver/129/1/Developer/IOS/GameStartX/GameStartX/GameStartX/GameConstants.h
+END
+GameMap.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/fxgzappone/!svn/ver/129/1/Developer/IOS/GameStartX/GameStartX/GameStartX/GameMap.h
+END
+ControlLayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/fxgzappone/!svn/ver/129/1/Developer/IOS/GameStartX/GameStartX/GameStartX/ControlLayer.cpp
+END
+MTGame.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/fxgzappone/!svn/ver/129/1/Developer/IOS/GameStartX/GameStartX/GameStartX/MTGame.h
+END
+ControlLayer.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/fxgzappone/!svn/ver/129/1/Developer/IOS/GameStartX/GameStartX/GameStartX/ControlLayer.h
+END
+Prefix.pch
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/fxgzappone/!svn/ver/129/1/Developer/IOS/GameStartX/GameStartX/GameStartX/Prefix.pch
+END
+0.tmx
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/fxgzappone/!svn/ver/129/1/Developer/IOS/GameStartX/GameStartX/GameStartX/0.tmx
+END
+GameScene.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/fxgzappone/!svn/ver/129/1/Developer/IOS/GameStartX/GameStartX/GameStartX/GameScene.cpp
+END
+GameScene.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/fxgzappone/!svn/ver/129/1/Developer/IOS/GameStartX/GameStartX/GameStartX/GameScene.h
+END
+Hero.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/fxgzappone/!svn/ver/129/1/Developer/IOS/GameStartX/GameStartX/GameStartX/Hero.cpp
+END

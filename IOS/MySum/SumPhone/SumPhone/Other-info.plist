@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>调试部分</string>
+		<key>ViewControllers</key>
+		<array>
+			<string>DebugLogViewController</string>
+			<string>KvoViewController</string>
+			<string>ViewBase</string>
+			<string>ViewBase</string>
+		</array>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>IOS功能单元</string>
+		<key>ViewControllers</key>
+		<array>
+			<string>AddressBookViewController</string>
+			<string>LocalNotificationViewController</string>
+			<string>ViewBase</string>
+		</array>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>第三方</string>
+		<key>ViewControllers</key>
+		<array>
+			<string>EGORefreshViewController</string>
+			<string>ChineseTranslatePinYinViewController</string>
+		</array>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Cocoa基础</string>
+		<key>ViewControllers</key>
+		<array>
+			<string>BlockViewController</string>
+			<string>NSDateStudyDemoViewController</string>
+			<string>ViewBase</string>
+			<string>ViewBase</string>
+		</array>
+	</dict>
+</array>
+</plist>

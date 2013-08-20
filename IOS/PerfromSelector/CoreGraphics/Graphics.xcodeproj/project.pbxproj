@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C3E8F95716C7344B007606A6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3E8F95616C7344B007606A6 /* UIKit.framework */; };
+		C3E8F95916C7344B007606A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3E8F95816C7344B007606A6 /* Foundation.framework */; };
+		C3E8F95B16C7344B007606A6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3E8F95A16C7344B007606A6 /* CoreGraphics.framework */; };
+		C3E8F96116C7344C007606A6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C3E8F95F16C7344C007606A6 /* InfoPlist.strings */; };
+		C3E8F96316C7344C007606A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E8F96216C7344C007606A6 /* main.m */; };
+		C3E8F96716C7344C007606A6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E8F96616C7344C007606A6 /* AppDelegate.m */; };
+		C3E8F96916C7344C007606A6 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C3E8F96816C7344C007606A6 /* Default.png */; };
+		C3E8F96B16C7344C007606A6 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C3E8F96A16C7344C007606A6 /* Default@2x.png */; };
+		C3E8F96D16C7344C007606A6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C3E8F96C16C7344C007606A6 /* Default-568h@2x.png */; };
+		C3E8F97816C77883007606A6 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E8F97716C77882007606A6 /* RootViewController.m */; };
+		C3E8F98F16C8F1B8007606A6 /* GraphicsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E8F98E16C8F1B7007606A6 /* GraphicsViewController.m */; };
+		C3E8F99316C8F327007606A6 /* ViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E8F99216C8F327007606A6 /* ViewManager.m */; };
+		C3E8F99716C8FC35007606A6 /* ColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E8F99616C8FC35007606A6 /* ColorViewController.m */; };
+		C3E8F99E16CB2643007606A6 /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E8F99D16CB2643007606A6 /* ImageViewController.m */; };
+		C3E8F9A116CB2804007606A6 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C3E8F9A016CB2804007606A6 /* Icon.png */; };
+		C3E8F9A616CB2C20007606A6 /* LineDrawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E8F9A516CB2C20007606A6 /* LineDrawViewController.m */; };
+		C3E8F9A916CB3476007606A6 /* PathDrawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E8F9A816CB3476007606A6 /* PathDrawViewController.m */; };
+		C3E8F9AB16CB8F1D007606A6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3E8F9AA16CB8F1D007606A6 /* QuartzCore.framework */; };
+		C3E8F9AE16CB93A6007606A6 /* RectangleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E8F9AD16CB93A6007606A6 /* RectangleViewController.m */; };
+		C3E8F9B116CB9DAF007606A6 /* RectanglesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E8F9B016CB9DAF007606A6 /* RectanglesViewController.m */; };
+		C3E8F9B416CBB669007606A6 /* shadowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E8F9B316CBB669007606A6 /* shadowViewController.m */; };
+		C3E8F9B716CC63B4007606A6 /* GradientViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E8F9B616CC63B4007606A6 /* GradientViewController.m */; };
+		C3E8F9BA16CCAA30007606A6 /* Gradient1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E8F9B916CCAA2F007606A6 /* Gradient1ViewController.m */; };
+		C3E8F9BD16CCB693007606A6 /* TransformViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E8F9BC16CCB693007606A6 /* TransformViewController.m */; };
+		C3E8F9C016CCD695007606A6 /* TranslateCTMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E8F9BF16CCD694007606A6 /* TranslateCTMViewController.m */; };
+		C3E8F9C316CCDA10007606A6 /* ScaleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E8F9C216CCDA0F007606A6 /* ScaleViewController.m */; };
+		C3E8F9C616CCDFE7007606A6 /* RotationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E8F9C516CCDFE5007606A6 /* RotationViewController.m */; };
+		C3E8F9C916CCE3A6007606A6 /* AnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E8F9C816CCE3A4007606A6 /* AnimationViewController.m */; };
+		C3E8F9CC16CCED5B007606A6 /* Animation1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E8F9CB16CCED5A007606A6 /* Animation1ViewController.m */; };
+		C3E8FA1516CE25EE007606A6 /* ShapesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E8FA1416CE25EE007606A6 /* ShapesViewController.m */; };
+		C3E8FA2F16CF8169007606A6 /* DrawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E8FA2E16CF8169007606A6 /* DrawViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C3E8F95216C7344B007606A6 /* Graphics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Graphics.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3E8F95616C7344B007606A6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C3E8F95816C7344B007606A6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C3E8F95A16C7344B007606A6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C3E8F95E16C7344C007606A6 /* Graphics-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Graphics-Info.plist"; sourceTree = "<group>"; };
+		C3E8F96016C7344C007606A6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C3E8F96216C7344C007606A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C3E8F96416C7344C007606A6 /* Graphics-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Graphics-Prefix.pch"; sourceTree = "<group>"; };
+		C3E8F96516C7344C007606A6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C3E8F96616C7344C007606A6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C3E8F96816C7344C007606A6 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C3E8F96A16C7344C007606A6 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		C3E8F96C16C7344C007606A6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C3E8F97616C77882007606A6 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		C3E8F97716C77882007606A6 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		C3E8F98D16C8F1B7007606A6 /* GraphicsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphicsViewController.h; sourceTree = "<group>"; };
+		C3E8F98E16C8F1B7007606A6 /* GraphicsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphicsViewController.m; sourceTree = "<group>"; };
+		C3E8F99116C8F327007606A6 /* ViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewManager.h; sourceTree = "<group>"; };
+		C3E8F99216C8F327007606A6 /* ViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewManager.m; sourceTree = "<group>"; };
+		C3E8F99516C8FC34007606A6 /* ColorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorViewController.h; sourceTree = "<group>"; };
+		C3E8F99616C8FC35007606A6 /* ColorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorViewController.m; sourceTree = "<group>"; };
+		C3E8F99C16CB2643007606A6 /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		C3E8F99D16CB2643007606A6 /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
+		C3E8F9A016CB2804007606A6 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		C3E8F9A416CB2C20007606A6 /* LineDrawViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineDrawViewController.h; sourceTree = "<group>"; };
+		C3E8F9A516CB2C20007606A6 /* LineDrawViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineDrawViewController.m; sourceTree = "<group>"; };
+		C3E8F9A716CB3476007606A6 /* PathDrawViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PathDrawViewController.h; sourceTree = "<group>"; };
+		C3E8F9A816CB3476007606A6 /* PathDrawViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PathDrawViewController.m; sourceTree = "<group>"; };
+		C3E8F9AA16CB8F1D007606A6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C3E8F9AC16CB93A5007606A6 /* RectangleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RectangleViewController.h; sourceTree = "<group>"; };
+		C3E8F9AD16CB93A6007606A6 /* RectangleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RectangleViewController.m; sourceTree = "<group>"; };
+		C3E8F9AF16CB9DAF007606A6 /* RectanglesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RectanglesViewController.h; sourceTree = "<group>"; };
+		C3E8F9B016CB9DAF007606A6 /* RectanglesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RectanglesViewController.m; sourceTree = "<group>"; };
+		C3E8F9B216CBB668007606A6 /* shadowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = shadowViewController.h; sourceTree = "<group>"; };
+		C3E8F9B316CBB669007606A6 /* shadowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = shadowViewController.m; sourceTree = "<group>"; };
+		C3E8F9B516CC63B4007606A6 /* GradientViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientViewController.h; sourceTree = "<group>"; };
+		C3E8F9B616CC63B4007606A6 /* GradientViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientViewController.m; sourceTree = "<group>"; };
+		C3E8F9B816CCAA2F007606A6 /* Gradient1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Gradient1ViewController.h; sourceTree = "<group>"; };
+		C3E8F9B916CCAA2F007606A6 /* Gradient1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Gradient1ViewController.m; sourceTree = "<group>"; };
+		C3E8F9BB16CCB692007606A6 /* TransformViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransformViewController.h; sourceTree = "<group>"; };
+		C3E8F9BC16CCB693007606A6 /* TransformViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransformViewController.m; sourceTree = "<group>"; };
+		C3E8F9BE16CCD694007606A6 /* TranslateCTMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TranslateCTMViewController.h; sourceTree = "<group>"; };
+		C3E8F9BF16CCD694007606A6 /* TranslateCTMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TranslateCTMViewController.m; sourceTree = "<group>"; };
+		C3E8F9C116CCDA0F007606A6 /* ScaleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScaleViewController.h; sourceTree = "<group>"; };
+		C3E8F9C216CCDA0F007606A6 /* ScaleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScaleViewController.m; sourceTree = "<group>"; };
+		C3E8F9C416CCDFE5007606A6 /* RotationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotationViewController.h; sourceTree = "<group>"; };
+		C3E8F9C516CCDFE5007606A6 /* RotationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RotationViewController.m; sourceTree = "<group>"; };
+		C3E8F9C716CCE3A3007606A6 /* AnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationViewController.h; sourceTree = "<group>"; };
+		C3E8F9C816CCE3A4007606A6 /* AnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationViewController.m; sourceTree = "<group>"; };
+		C3E8F9CA16CCED58007606A6 /* Animation1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animation1ViewController.h; sourceTree = "<group>"; };
+		C3E8F9CB16CCED5A007606A6 /* Animation1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animation1ViewController.m; sourceTree = "<group>"; };
+		C3E8FA1316CE25EE007606A6 /* ShapesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShapesViewController.h; sourceTree = "<group>"; };
+		C3E8FA1416CE25EE007606A6 /* ShapesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShapesViewController.m; sourceTree = "<group>"; };
+		C3E8FA2D16CF8169007606A6 /* DrawViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawViewController.h; sourceTree = "<group>"; };
+		C3E8FA2E16CF8169007606A6 /* DrawViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3E8F94F16C7344B007606A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3E8F9AB16CB8F1D007606A6 /* QuartzCore.framework in Frameworks */,
+				C3E8F95716C7344B007606A6 /* UIKit.framework in Frameworks */,
+				C3E8F95916C7344B007606A6 /* Foundation.framework in Frameworks */,
+				C3E8F95B16C7344B007606A6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C3E8F94716C7344B007606A6 = {
+			isa = PBXGroup;
+			children = (
+				C3E8F95C16C7344C007606A6 /* Graphics */,
+				C3E8F95516C7344B007606A6 /* Frameworks */,
+				C3E8F95316C7344B007606A6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C3E8F95316C7344B007606A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3E8F95216C7344B007606A6 /* Graphics.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3E8F95516C7344B007606A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3E8F9AA16CB8F1D007606A6 /* QuartzCore.framework */,
+				C3E8F95616C7344B007606A6 /* UIKit.framework */,
+				C3E8F95816C7344B007606A6 /* Foundation.framework */,
+				C3E8F95A16C7344B007606A6 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3E8F95C16C7344C007606A6 /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				C3E8F96516C7344C007606A6 /* AppDelegate.h */,
+				C3E8F96616C7344C007606A6 /* AppDelegate.m */,
+				C3E8F97616C77882007606A6 /* RootViewController.h */,
+				C3E8F97716C77882007606A6 /* RootViewController.m */,
+				C3E8F9A316CB2AF4007606A6 /* Common */,
+				C3E8F9A216CB2A8A007606A6 /* ViewControllers */,
+				C3E8F95D16C7344C007606A6 /* Supporting Files */,
+			);
+			path = Graphics;
+			sourceTree = "<group>";
+		};
+		C3E8F95D16C7344C007606A6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C3E8F9A016CB2804007606A6 /* Icon.png */,
+				C3E8F95E16C7344C007606A6 /* Graphics-Info.plist */,
+				C3E8F95F16C7344C007606A6 /* InfoPlist.strings */,
+				C3E8F96216C7344C007606A6 /* main.m */,
+				C3E8F96416C7344C007606A6 /* Graphics-Prefix.pch */,
+				C3E8F96816C7344C007606A6 /* Default.png */,
+				C3E8F96A16C7344C007606A6 /* Default@2x.png */,
+				C3E8F96C16C7344C007606A6 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C3E8F9A216CB2A8A007606A6 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C3E8F98D16C8F1B7007606A6 /* GraphicsViewController.h */,
+				C3E8F98E16C8F1B7007606A6 /* GraphicsViewController.m */,
+				C3E8F99516C8FC34007606A6 /* ColorViewController.h */,
+				C3E8F99616C8FC35007606A6 /* ColorViewController.m */,
+				C3E8F99C16CB2643007606A6 /* ImageViewController.h */,
+				C3E8F99D16CB2643007606A6 /* ImageViewController.m */,
+				C3E8F9A416CB2C20007606A6 /* LineDrawViewController.h */,
+				C3E8F9A516CB2C20007606A6 /* LineDrawViewController.m */,
+				C3E8F9A716CB3476007606A6 /* PathDrawViewController.h */,
+				C3E8F9A816CB3476007606A6 /* PathDrawViewController.m */,
+				C3E8F9AC16CB93A5007606A6 /* RectangleViewController.h */,
+				C3E8F9AD16CB93A6007606A6 /* RectangleViewController.m */,
+				C3E8F9AF16CB9DAF007606A6 /* RectanglesViewController.h */,
+				C3E8F9B016CB9DAF007606A6 /* RectanglesViewController.m */,
+				C3E8F9B216CBB668007606A6 /* shadowViewController.h */,
+				C3E8F9B316CBB669007606A6 /* shadowViewController.m */,
+				C3E8F9B516CC63B4007606A6 /* GradientViewController.h */,
+				C3E8F9B616CC63B4007606A6 /* GradientViewController.m */,
+				C3E8F9B816CCAA2F007606A6 /* Gradient1ViewController.h */,
+				C3E8F9B916CCAA2F007606A6 /* Gradient1ViewController.m */,
+				C3E8F9BB16CCB692007606A6 /* TransformViewController.h */,
+				C3E8F9BC16CCB693007606A6 /* TransformViewController.m */,
+				C3E8F9BE16CCD694007606A6 /* TranslateCTMViewController.h */,
+				C3E8F9BF16CCD694007606A6 /* TranslateCTMViewController.m */,
+				C3E8F9C116CCDA0F007606A6 /* ScaleViewController.h */,
+				C3E8F9C216CCDA0F007606A6 /* ScaleViewController.m */,
+				C3E8F9C416CCDFE5007606A6 /* RotationViewController.h */,
+				C3E8F9C516CCDFE5007606A6 /* RotationViewController.m */,
+				C3E8F9C716CCE3A3007606A6 /* AnimationViewController.h */,
+				C3E8F9C816CCE3A4007606A6 /* AnimationViewController.m */,
+				C3E8F9CA16CCED58007606A6 /* Animation1ViewController.h */,
+				C3E8F9CB16CCED5A007606A6 /* Animation1ViewController.m */,
+				C3E8FA1316CE25EE007606A6 /* ShapesViewController.h */,
+				C3E8FA1416CE25EE007606A6 /* ShapesViewController.m */,
+				C3E8FA2D16CF8169007606A6 /* DrawViewController.h */,
+				C3E8FA2E16CF8169007606A6 /* DrawViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C3E8F9A316CB2AF4007606A6 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				C3E8F99116C8F327007606A6 /* ViewManager.h */,
+				C3E8F99216C8F327007606A6 /* ViewManager.m */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C3E8F95116C7344B007606A6 /* Graphics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3E8F97016C7344C007606A6 /* Build configuration list for PBXNativeTarget "Graphics" */;
+			buildPhases = (
+				C3E8F94E16C7344B007606A6 /* Sources */,
+				C3E8F94F16C7344B007606A6 /* Frameworks */,
+				C3E8F95016C7344B007606A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Graphics;
+			productName = Graphics;
+			productReference = C3E8F95216C7344B007606A6 /* Graphics.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C3E8F94916C7344B007606A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Zogful.Lee;
+			};
+			buildConfigurationList = C3E8F94C16C7344B007606A6 /* Build configuration list for PBXProject "Graphics" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C3E8F94716C7344B007606A6;
+			productRefGroup = C3E8F95316C7344B007606A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3E8F95116C7344B007606A6 /* Graphics */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C3E8F95016C7344B007606A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3E8F96116C7344C007606A6 /* InfoPlist.strings in Resources */,
+				C3E8F96916C7344C007606A6 /* Default.png in Resources */,
+				C3E8F96B16C7344C007606A6 /* Default@2x.png in Resources */,
+				C3E8F96D16C7344C007606A6 /* Default-568h@2x.png in Resources */,
+				C3E8F9A116CB2804007606A6 /* Icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3E8F94E16C7344B007606A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3E8F96316C7344C007606A6 /* main.m in Sources */,
+				C3E8F96716C7344C007606A6 /* AppDelegate.m in Sources */,
+				C3E8F97816C77883007606A6 /* RootViewController.m in Sources */,
+				C3E8F98F16C8F1B8007606A6 /* GraphicsViewController.m in Sources */,
+				C3E8F99316C8F327007606A6 /* ViewManager.m in Sources */,
+				C3E8F99716C8FC35007606A6 /* ColorViewController.m in Sources */,
+				C3E8F99E16CB2643007606A6 /* ImageViewController.m in Sources */,
+				C3E8F9A616CB2C20007606A6 /* LineDrawViewController.m in Sources */,
+				C3E8F9A916CB3476007606A6 /* PathDrawViewController.m in Sources */,
+				C3E8F9AE16CB93A6007606A6 /* RectangleViewController.m in Sources */,
+				C3E8F9B116CB9DAF007606A6 /* RectanglesViewController.m in Sources */,
+				C3E8F9B416CBB669007606A6 /* shadowViewController.m in Sources */,
+				C3E8F9B716CC63B4007606A6 /* GradientViewController.m in Sources */,
+				C3E8F9BA16CCAA30007606A6 /* Gradient1ViewController.m in Sources */,
+				C3E8F9BD16CCB693007606A6 /* TransformViewController.m in Sources */,
+				C3E8F9C016CCD695007606A6 /* TranslateCTMViewController.m in Sources */,
+				C3E8F9C316CCDA10007606A6 /* ScaleViewController.m in Sources */,
+				C3E8F9C616CCDFE7007606A6 /* RotationViewController.m in Sources */,
+				C3E8F9C916CCE3A6007606A6 /* AnimationViewController.m in Sources */,
+				C3E8F9CC16CCED5B007606A6 /* Animation1ViewController.m in Sources */,
+				C3E8FA1516CE25EE007606A6 /* ShapesViewController.m in Sources */,
+				C3E8FA2F16CF8169007606A6 /* DrawViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C3E8F95F16C7344C007606A6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3E8F96016C7344C007606A6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C3E8F96E16C7344C007606A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C3E8F96F16C7344C007606A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C3E8F97116C7344C007606A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Graphics/Graphics-Prefix.pch";
+				INFOPLIST_FILE = "Graphics/Graphics-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C3E8F97216C7344C007606A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Graphics/Graphics-Prefix.pch";
+				INFOPLIST_FILE = "Graphics/Graphics-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C3E8F94C16C7344B007606A6 /* Build configuration list for PBXProject "Graphics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3E8F96E16C7344C007606A6 /* Debug */,
+				C3E8F96F16C7344C007606A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3E8F97016C7344C007606A6 /* Build configuration list for PBXNativeTarget "Graphics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3E8F97116C7344C007606A6 /* Debug */,
+				C3E8F97216C7344C007606A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C3E8F94916C7344B007606A6 /* Project object */;
+}

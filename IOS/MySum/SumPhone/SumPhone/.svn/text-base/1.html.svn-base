@@ -1,0 +1,24 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title>More information</title>
+  <style type="text/css">
+  p{
+		text-indent: 30px;
+  }
+   body{
+		color:#ffcc33;
+	}
+  </style>
+</head>
+<body>
+	<div style="-webkit-text-size-adjust:150%">
+	<p>This is a link that submits a form.</p>
+	<p>It will load the new page in place without sliding.
+	This is useful for web forms that don't represent a
+	standard "digging" behavior, and can also be used to
+	customize the site's behavior.</p>
+</body>
+</html>

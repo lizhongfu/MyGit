@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/fxgzappone/!svn/ver/129/1/Developer/IOS/GameStartX/GameStartX/GameStartX/libs/cocos2dx/platform
+END
+CCCommon.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/fxgzappone/!svn/ver/129/1/Developer/IOS/GameStartX/GameStartX/GameStartX/libs/cocos2dx/platform/CCCommon.cpp
+END
+CCStdC.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/fxgzappone/!svn/ver/129/1/Developer/IOS/GameStartX/GameStartX/GameStartX/libs/cocos2dx/platform/CCStdC.cpp
+END
+CCCommon.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/fxgzappone/!svn/ver/129/1/Developer/IOS/GameStartX/GameStartX/GameStartX/libs/cocos2dx/platform/CCCommon.h
+END
+CCPlatformMacros.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/fxgzappone/!svn/ver/129/1/Developer/IOS/GameStartX/GameStartX/GameStartX/libs/cocos2dx/platform/CCPlatformMacros.h
+END
+CCArchOptimalParticleSystem.h
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/fxgzappone/!svn/ver/129/1/Developer/IOS/GameStartX/GameStartX/GameStartX/libs/cocos2dx/platform/CCArchOptimalParticleSystem.h
+END
+CCGL.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/fxgzappone/!svn/ver/129/1/Developer/IOS/GameStartX/GameStartX/GameStartX/libs/cocos2dx/platform/CCGL.cpp
+END
+CCStdC.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/fxgzappone/!svn/ver/129/1/Developer/IOS/GameStartX/GameStartX/GameStartX/libs/cocos2dx/platform/CCStdC.h
+END
+CCFileUtils.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/fxgzappone/!svn/ver/129/1/Developer/IOS/GameStartX/GameStartX/GameStartX/libs/cocos2dx/platform/CCFileUtils.h
+END
+CCGL.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/fxgzappone/!svn/ver/129/1/Developer/IOS/GameStartX/GameStartX/GameStartX/libs/cocos2dx/platform/CCGL.h
+END
+CCSAXParser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/fxgzappone/!svn/ver/129/1/Developer/IOS/GameStartX/GameStartX/GameStartX/libs/cocos2dx/platform/CCSAXParser.cpp
+END
+CCEGLView_platform.h
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/fxgzappone/!svn/ver/129/1/Developer/IOS/GameStartX/GameStartX/GameStartX/libs/cocos2dx/platform/CCEGLView_platform.h
+END
+CCApplication_platform.h
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/fxgzappone/!svn/ver/129/1/Developer/IOS/GameStartX/GameStartX/GameStartX/libs/cocos2dx/platform/CCApplication_platform.h
+END
+CCThread.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/fxgzappone/!svn/ver/129/1/Developer/IOS/GameStartX/GameStartX/GameStartX/libs/cocos2dx/platform/CCThread.h
+END
+CCSAXParser.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/fxgzappone/!svn/ver/129/1/Developer/IOS/GameStartX/GameStartX/GameStartX/libs/cocos2dx/platform/CCSAXParser.h
+END
+platform.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/fxgzappone/!svn/ver/129/1/Developer/IOS/GameStartX/GameStartX/GameStartX/libs/cocos2dx/platform/platform.cpp
+END
+CCLibxml2.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/fxgzappone/!svn/ver/129/1/Developer/IOS/GameStartX/GameStartX/GameStartX/libs/cocos2dx/platform/CCLibxml2.h
+END
+CCPlatformConfig.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/fxgzappone/!svn/ver/129/1/Developer/IOS/GameStartX/GameStartX/GameStartX/libs/cocos2dx/platform/CCPlatformConfig.h
+END
+CCAccelerometer_platform.h
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/fxgzappone/!svn/ver/129/1/Developer/IOS/GameStartX/GameStartX/GameStartX/libs/cocos2dx/platform/CCAccelerometer_platform.h
+END
+platform.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/fxgzappone/!svn/ver/129/1/Developer/IOS/GameStartX/GameStartX/GameStartX/libs/cocos2dx/platform/platform.h
+END
+CCImage.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/fxgzappone/!svn/ver/129/1/Developer/IOS/GameStartX/GameStartX/GameStartX/libs/cocos2dx/platform/CCImage.h
+END

@@ -1,0 +1,401 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/fxgzappone/!svn/ver/131/1/Developer/IOS/HardWareDemo/HardWareDemo
+END
+main.m
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/fxgzappone/!svn/ver/131/1/Developer/IOS/HardWareDemo/HardWareDemo/main.m
+END
+NSBundle+RFKit.m
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/fxgzappone/!svn/ver/131/1/Developer/IOS/HardWareDemo/HardWareDemo/NSBundle+RFKit.m
+END
+Default@2x.png
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/fxgzappone/!svn/ver/131/1/Developer/IOS/HardWareDemo/HardWareDemo/Default@2x.png
+END
+UIColor+RFKit.m
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/fxgzappone/!svn/ver/131/1/Developer/IOS/HardWareDemo/HardWareDemo/UIColor+RFKit.m
+END
+RFARC.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/fxgzappone/!svn/ver/131/1/Developer/IOS/HardWareDemo/HardWareDemo/RFARC.h
+END
+HardWareDemo-Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/fxgzappone/!svn/ver/131/1/Developer/IOS/HardWareDemo/HardWareDemo/HardWareDemo-Info.plist
+END
+RFRuntime.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/fxgzappone/!svn/ver/131/1/Developer/IOS/HardWareDemo/HardWareDemo/RFRuntime.h
+END
+NSDateFormatter+RFKit.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/fxgzappone/!svn/ver/131/1/Developer/IOS/HardWareDemo/HardWareDemo/NSDateFormatter+RFKit.h
+END
+HardWareDemo-Prefix.pch
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/fxgzappone/!svn/ver/131/1/Developer/IOS/HardWareDemo/HardWareDemo/HardWareDemo-Prefix.pch
+END
+NSDateFormatter+RFKit.m
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/fxgzappone/!svn/ver/131/1/Developer/IOS/HardWareDemo/HardWareDemo/NSDateFormatter+RFKit.m
+END
+NSFileManager+RFKit.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/fxgzappone/!svn/ver/131/1/Developer/IOS/HardWareDemo/HardWareDemo/NSFileManager+RFKit.h
+END
+NSNumberFormatter+RFKit.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/fxgzappone/!svn/ver/131/1/Developer/IOS/HardWareDemo/HardWareDemo/NSNumberFormatter+RFKit.h
+END
+NSDate+RFKit.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/fxgzappone/!svn/ver/131/1/Developer/IOS/HardWareDemo/HardWareDemo/NSDate+RFKit.h
+END
+NSFileManager+RFKit.m
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/fxgzappone/!svn/ver/131/1/Developer/IOS/HardWareDemo/HardWareDemo/NSFileManager+RFKit.m
+END
+NSNumberFormatter+RFKit.m
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/fxgzappone/!svn/ver/131/1/Developer/IOS/HardWareDemo/HardWareDemo/NSNumberFormatter+RFKit.m
+END
+NSDate+RFKit.m
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/fxgzappone/!svn/ver/131/1/Developer/IOS/HardWareDemo/HardWareDemo/NSDate+RFKit.m
+END
+UIStoryboard+RFKit.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/fxgzappone/!svn/ver/131/1/Developer/IOS/HardWareDemo/HardWareDemo/UIStoryboard+RFKit.h
+END
+UIStoryboard+RFKit.m
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/fxgzappone/!svn/ver/131/1/Developer/IOS/HardWareDemo/HardWareDemo/UIStoryboard+RFKit.m
+END
+RFAlloctionProxyButton.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/fxgzappone/!svn/ver/131/1/Developer/IOS/HardWareDemo/HardWareDemo/RFAlloctionProxyButton.h
+END
+UIAlertView+RFKit.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/fxgzappone/!svn/ver/131/1/Developer/IOS/HardWareDemo/HardWareDemo/UIAlertView+RFKit.h
+END
+ViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/fxgzappone/!svn/ver/131/1/Developer/IOS/HardWareDemo/HardWareDemo/ViewController.h
+END
+NSURL+RFKit.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/fxgzappone/!svn/ver/131/1/Developer/IOS/HardWareDemo/HardWareDemo/NSURL+RFKit.h
+END
+RFKit.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/fxgzappone/!svn/ver/131/1/Developer/IOS/HardWareDemo/HardWareDemo/RFKit.h
+END
+RFAlloctionProxyButton.m
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/fxgzappone/!svn/ver/131/1/Developer/IOS/HardWareDemo/HardWareDemo/RFAlloctionProxyButton.m
+END
+UIAlertView+RFKit.m
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/fxgzappone/!svn/ver/131/1/Developer/IOS/HardWareDemo/HardWareDemo/UIAlertView+RFKit.m
+END
+UIWebView+RFKit.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/fxgzappone/!svn/ver/131/1/Developer/IOS/HardWareDemo/HardWareDemo/UIWebView+RFKit.h
+END
+NSDictionary+RFKit.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/fxgzappone/!svn/ver/131/1/Developer/IOS/HardWareDemo/HardWareDemo/NSDictionary+RFKit.h
+END
+NSObject+RFKit.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/fxgzappone/!svn/ver/131/1/Developer/IOS/HardWareDemo/HardWareDemo/NSObject+RFKit.h
+END
+NSString+RFKit.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/fxgzappone/!svn/ver/131/1/Developer/IOS/HardWareDemo/HardWareDemo/NSString+RFKit.h
+END
+NSURL+RFKit.m
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/fxgzappone/!svn/ver/131/1/Developer/IOS/HardWareDemo/HardWareDemo/NSURL+RFKit.m
+END
+ViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/fxgzappone/!svn/ver/131/1/Developer/IOS/HardWareDemo/HardWareDemo/ViewController.m
+END
+Default-568h@2x.png
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/fxgzappone/!svn/ver/131/1/Developer/IOS/HardWareDemo/HardWareDemo/Default-568h@2x.png
+END
+UIWebView+RFKit.m
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/fxgzappone/!svn/ver/131/1/Developer/IOS/HardWareDemo/HardWareDemo/UIWebView+RFKit.m
+END
+NSDictionary+RFKit.m
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/fxgzappone/!svn/ver/131/1/Developer/IOS/HardWareDemo/HardWareDemo/NSDictionary+RFKit.m
+END
+NSObject+RFKit.m
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/fxgzappone/!svn/ver/131/1/Developer/IOS/HardWareDemo/HardWareDemo/NSObject+RFKit.m
+END
+NSString+RFKit.m
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/fxgzappone/!svn/ver/131/1/Developer/IOS/HardWareDemo/HardWareDemo/NSString+RFKit.m
+END
+RFPerformance.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/fxgzappone/!svn/ver/131/1/Developer/IOS/HardWareDemo/HardWareDemo/RFPerformance.h
+END
+UncaughtExceptionHandler.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/fxgzappone/!svn/ver/131/1/Developer/IOS/HardWareDemo/HardWareDemo/UncaughtExceptionHandler.h
+END
+RFPerformance.m
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/fxgzappone/!svn/ver/131/1/Developer/IOS/HardWareDemo/HardWareDemo/RFPerformance.m
+END
+UncaughtExceptionHandler.m
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/fxgzappone/!svn/ver/131/1/Developer/IOS/HardWareDemo/HardWareDemo/UncaughtExceptionHandler.m
+END
+RFAlloctionProxyView.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/fxgzappone/!svn/ver/131/1/Developer/IOS/HardWareDemo/HardWareDemo/RFAlloctionProxyView.h
+END
+RFAlloctionProxyView.m
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/fxgzappone/!svn/ver/131/1/Developer/IOS/HardWareDemo/HardWareDemo/RFAlloctionProxyView.m
+END
+RFGeometry.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/fxgzappone/!svn/ver/131/1/Developer/IOS/HardWareDemo/HardWareDemo/RFGeometry.h
+END
+NSJSONSerialization+RFKit.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/fxgzappone/!svn/ver/131/1/Developer/IOS/HardWareDemo/HardWareDemo/NSJSONSerialization+RFKit.h
+END
+UIButton+RFKit.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/fxgzappone/!svn/ver/131/1/Developer/IOS/HardWareDemo/HardWareDemo/UIButton+RFKit.h
+END
+UIViewController+RFKit.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/fxgzappone/!svn/ver/131/1/Developer/IOS/HardWareDemo/HardWareDemo/UIViewController+RFKit.h
+END
+RFGeometry.m
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/fxgzappone/!svn/ver/131/1/Developer/IOS/HardWareDemo/HardWareDemo/RFGeometry.m
+END
+NSJSONSerialization+RFKit.m
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/fxgzappone/!svn/ver/131/1/Developer/IOS/HardWareDemo/HardWareDemo/NSJSONSerialization+RFKit.m
+END
+UIButton+RFKit.m
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/fxgzappone/!svn/ver/131/1/Developer/IOS/HardWareDemo/HardWareDemo/UIButton+RFKit.m
+END
+RFKitDefaultCategories.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/fxgzappone/!svn/ver/131/1/Developer/IOS/HardWareDemo/HardWareDemo/RFKitDefaultCategories.h
+END
+NSArray+RFKit.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/fxgzappone/!svn/ver/131/1/Developer/IOS/HardWareDemo/HardWareDemo/NSArray+RFKit.h
+END
+UIImage+RFKit.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/fxgzappone/!svn/ver/131/1/Developer/IOS/HardWareDemo/HardWareDemo/UIImage+RFKit.h
+END
+UIViewController+RFKit.m
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/fxgzappone/!svn/ver/131/1/Developer/IOS/HardWareDemo/HardWareDemo/UIViewController+RFKit.m
+END
+NSArray+RFKit.m
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/fxgzappone/!svn/ver/131/1/Developer/IOS/HardWareDemo/HardWareDemo/NSArray+RFKit.m
+END
+UIImage+RFKit.m
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/fxgzappone/!svn/ver/131/1/Developer/IOS/HardWareDemo/HardWareDemo/UIImage+RFKit.m
+END
+UIDevice+RFKit.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/fxgzappone/!svn/ver/131/1/Developer/IOS/HardWareDemo/HardWareDemo/UIDevice+RFKit.h
+END
+dout.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/fxgzappone/!svn/ver/131/1/Developer/IOS/HardWareDemo/HardWareDemo/dout.h
+END
+AppDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/fxgzappone/!svn/ver/131/1/Developer/IOS/HardWareDemo/HardWareDemo/AppDelegate.h
+END
+UIDevice+RFKit.m
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/fxgzappone/!svn/ver/131/1/Developer/IOS/HardWareDemo/HardWareDemo/UIDevice+RFKit.m
+END
+AppDelegate.m
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/fxgzappone/!svn/ver/131/1/Developer/IOS/HardWareDemo/HardWareDemo/AppDelegate.m
+END
+dout.m
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/fxgzappone/!svn/ver/131/1/Developer/IOS/HardWareDemo/HardWareDemo/dout.m
+END
+Default.png
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/fxgzappone/!svn/ver/131/1/Developer/IOS/HardWareDemo/HardWareDemo/Default.png
+END
+UIView+RFKit.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/fxgzappone/!svn/ver/131/1/Developer/IOS/HardWareDemo/HardWareDemo/UIView+RFKit.h
+END
+NSBundle+RFKit.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/fxgzappone/!svn/ver/131/1/Developer/IOS/HardWareDemo/HardWareDemo/NSBundle+RFKit.h
+END
+UIColor+RFKit.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/fxgzappone/!svn/ver/131/1/Developer/IOS/HardWareDemo/HardWareDemo/UIColor+RFKit.h
+END
+UIView+RFKit.m
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/fxgzappone/!svn/ver/131/1/Developer/IOS/HardWareDemo/HardWareDemo/UIView+RFKit.m
+END

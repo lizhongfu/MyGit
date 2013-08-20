@@ -1,0 +1,19 @@
+//
+// Prefix header for all source files of the 'TestSocket' target in the 'TestSocket' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_4_0
+#warning "This project uses features only available in iOS SDK 4.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import "AsyncUdpSocket.h"
+    #import "AsyncSocket.h"
+    #import <CFNetwork/CFNetwork.h>
+
+    #define kPrintInfo(__MSG__) NSLog(@"%s %@ %d", __FUNCTION__, [__MSG__ description], __LINE__);
+#endif

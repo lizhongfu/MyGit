@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/fxgzappone/!svn/ver/159/1/Developer/IOS/SocketHomework/Socket/TestAsyncSocket/TestTcpClient/TestTcpClient
+END
+main.m
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/fxgzappone/!svn/ver/159/1/Developer/IOS/SocketHomework/Socket/TestAsyncSocket/TestTcpClient/TestTcpClient/main.m
+END
+AsyncSocket.m
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/fxgzappone/!svn/ver/159/1/Developer/IOS/SocketHomework/Socket/TestAsyncSocket/TestTcpClient/TestTcpClient/AsyncSocket.m
+END
+AsyncUdpSocket.h
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/fxgzappone/!svn/ver/159/1/Developer/IOS/SocketHomework/Socket/TestAsyncSocket/TestTcpClient/TestTcpClient/AsyncUdpSocket.h
+END
+TestTcpClientAppDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/fxgzappone/!svn/ver/159/1/Developer/IOS/SocketHomework/Socket/TestAsyncSocket/TestTcpClient/TestTcpClient/TestTcpClientAppDelegate.h
+END
+TestTcpClient-Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/fxgzappone/!svn/ver/159/1/Developer/IOS/SocketHomework/Socket/TestAsyncSocket/TestTcpClient/TestTcpClient/TestTcpClient-Info.plist
+END
+TestTcpClient-Prefix.pch
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/fxgzappone/!svn/ver/159/1/Developer/IOS/SocketHomework/Socket/TestAsyncSocket/TestTcpClient/TestTcpClient/TestTcpClient-Prefix.pch
+END
+AsyncUdpSocket.m
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/fxgzappone/!svn/ver/159/1/Developer/IOS/SocketHomework/Socket/TestAsyncSocket/TestTcpClient/TestTcpClient/AsyncUdpSocket.m
+END
+AsyncSocket.h
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/fxgzappone/!svn/ver/159/1/Developer/IOS/SocketHomework/Socket/TestAsyncSocket/TestTcpClient/TestTcpClient/AsyncSocket.h
+END
+TestTcpClientAppDelegate.m
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/fxgzappone/!svn/ver/159/1/Developer/IOS/SocketHomework/Socket/TestAsyncSocket/TestTcpClient/TestTcpClient/TestTcpClientAppDelegate.m
+END

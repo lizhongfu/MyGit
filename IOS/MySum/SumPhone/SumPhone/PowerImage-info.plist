@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+		<string>正常</string>
+		<string>黑白</string>
+		<string>漫画</string>
+		<string>波普</string>
+		<string>复古</string>
+		<string>扫描线</string>
+		<string>Lomo</string>
+		<string>矩阵黑白</string>
+		<string>旧化</string>
+		<string>哥特</string>
+		<string>锐色</string>
+		<string>淡雅</string>
+		<string>酒红</string>
+		<string>青柠</string>
+		<string>浪漫</string>
+		<string>光晕</string>
+		<string>蓝调</string>
+		<string>梦幻</string>
+		<string>夜色</string>
+	</array>
+	<array>
+		<string>截取指定框架内图像的</string>
+		<string>等比例最低像素</string>
+		<string>等比例缩放到指定像素大小</string>
+		<string>缩放到指定像素大小</string>
+		<string>图片按弧度旋转</string>
+		<string>图片按角度旋转</string>
+		<string>截图</string>
+	</array>
+</array>
+</plist>

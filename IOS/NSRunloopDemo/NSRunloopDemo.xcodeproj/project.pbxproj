@@ -1,0 +1,285 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C3D547D2170E7D38001138AA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3D547D1170E7D38001138AA /* UIKit.framework */; };
+		C3D547D4170E7D38001138AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3D547D3170E7D38001138AA /* Foundation.framework */; };
+		C3D547D6170E7D38001138AA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3D547D5170E7D38001138AA /* CoreGraphics.framework */; };
+		C3D547DC170E7D38001138AA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C3D547DA170E7D38001138AA /* InfoPlist.strings */; };
+		C3D547DE170E7D38001138AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D547DD170E7D38001138AA /* main.m */; };
+		C3D547E2170E7D38001138AA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D547E1170E7D38001138AA /* AppDelegate.m */; };
+		C3D547E4170E7D38001138AA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C3D547E3170E7D38001138AA /* Default.png */; };
+		C3D547E6170E7D38001138AA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C3D547E5170E7D38001138AA /* Default@2x.png */; };
+		C3D547E8170E7D38001138AA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C3D547E7170E7D38001138AA /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C3D547CE170E7D38001138AA /* NSRunloopDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSRunloopDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3D547D1170E7D38001138AA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C3D547D3170E7D38001138AA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C3D547D5170E7D38001138AA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C3D547D9170E7D38001138AA /* NSRunloopDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSRunloopDemo-Info.plist"; sourceTree = "<group>"; };
+		C3D547DB170E7D38001138AA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C3D547DD170E7D38001138AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C3D547DF170E7D38001138AA /* NSRunloopDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSRunloopDemo-Prefix.pch"; sourceTree = "<group>"; };
+		C3D547E0170E7D38001138AA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C3D547E1170E7D38001138AA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C3D547E3170E7D38001138AA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C3D547E5170E7D38001138AA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		C3D547E7170E7D38001138AA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3D547CB170E7D38001138AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3D547D2170E7D38001138AA /* UIKit.framework in Frameworks */,
+				C3D547D4170E7D38001138AA /* Foundation.framework in Frameworks */,
+				C3D547D6170E7D38001138AA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C3D547C5170E7D38001138AA = {
+			isa = PBXGroup;
+			children = (
+				C3D547D7170E7D38001138AA /* NSRunloopDemo */,
+				C3D547D0170E7D38001138AA /* Frameworks */,
+				C3D547CF170E7D38001138AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C3D547CF170E7D38001138AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3D547CE170E7D38001138AA /* NSRunloopDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3D547D0170E7D38001138AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3D547D1170E7D38001138AA /* UIKit.framework */,
+				C3D547D3170E7D38001138AA /* Foundation.framework */,
+				C3D547D5170E7D38001138AA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3D547D7170E7D38001138AA /* NSRunloopDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C3D547E0170E7D38001138AA /* AppDelegate.h */,
+				C3D547E1170E7D38001138AA /* AppDelegate.m */,
+				C3D547D8170E7D38001138AA /* Supporting Files */,
+			);
+			path = NSRunloopDemo;
+			sourceTree = "<group>";
+		};
+		C3D547D8170E7D38001138AA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C3D547D9170E7D38001138AA /* NSRunloopDemo-Info.plist */,
+				C3D547DA170E7D38001138AA /* InfoPlist.strings */,
+				C3D547DD170E7D38001138AA /* main.m */,
+				C3D547DF170E7D38001138AA /* NSRunloopDemo-Prefix.pch */,
+				C3D547E3170E7D38001138AA /* Default.png */,
+				C3D547E5170E7D38001138AA /* Default@2x.png */,
+				C3D547E7170E7D38001138AA /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C3D547CD170E7D38001138AA /* NSRunloopDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3D547EB170E7D38001138AA /* Build configuration list for PBXNativeTarget "NSRunloopDemo" */;
+			buildPhases = (
+				C3D547CA170E7D38001138AA /* Sources */,
+				C3D547CB170E7D38001138AA /* Frameworks */,
+				C3D547CC170E7D38001138AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSRunloopDemo;
+			productName = NSRunloopDemo;
+			productReference = C3D547CE170E7D38001138AA /* NSRunloopDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C3D547C6170E7D38001138AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Zogful.Lee;
+			};
+			buildConfigurationList = C3D547C9170E7D38001138AA /* Build configuration list for PBXProject "NSRunloopDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C3D547C5170E7D38001138AA;
+			productRefGroup = C3D547CF170E7D38001138AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3D547CD170E7D38001138AA /* NSRunloopDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C3D547CC170E7D38001138AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3D547DC170E7D38001138AA /* InfoPlist.strings in Resources */,
+				C3D547E4170E7D38001138AA /* Default.png in Resources */,
+				C3D547E6170E7D38001138AA /* Default@2x.png in Resources */,
+				C3D547E8170E7D38001138AA /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3D547CA170E7D38001138AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3D547DE170E7D38001138AA /* main.m in Sources */,
+				C3D547E2170E7D38001138AA /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C3D547DA170E7D38001138AA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3D547DB170E7D38001138AA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C3D547E9170E7D38001138AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C3D547EA170E7D38001138AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C3D547EC170E7D38001138AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSRunloopDemo/NSRunloopDemo-Prefix.pch";
+				INFOPLIST_FILE = "NSRunloopDemo/NSRunloopDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C3D547ED170E7D38001138AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSRunloopDemo/NSRunloopDemo-Prefix.pch";
+				INFOPLIST_FILE = "NSRunloopDemo/NSRunloopDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C3D547C9170E7D38001138AA /* Build configuration list for PBXProject "NSRunloopDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3D547E9170E7D38001138AA /* Debug */,
+				C3D547EA170E7D38001138AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3D547EB170E7D38001138AA /* Build configuration list for PBXNativeTarget "NSRunloopDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3D547EC170E7D38001138AA /* Debug */,
+				C3D547ED170E7D38001138AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C3D547C6170E7D38001138AA /* Project object */;
+}

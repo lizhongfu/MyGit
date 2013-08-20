@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1810" systemVersion="11G63b" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Authors" representedClassName="Authors" syncable="YES">
+        <attribute name="entry" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="entrys" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Entry" inverseName="issues" inverseEntity="Entry" syncable="YES"/>
+    </entity>
+    <entity name="Entry" representedClassName="Entry" syncable="YES">
+        <attribute name="body" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="creationDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="issues" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Authors" inverseName="entrys" inverseEntity="Authors" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Authors" positionX="-515" positionY="-45" width="128" height="75"/>
+        <element name="Entry" positionX="-216" positionY="-63" width="128" height="105"/>
+    </elements>
+</model>

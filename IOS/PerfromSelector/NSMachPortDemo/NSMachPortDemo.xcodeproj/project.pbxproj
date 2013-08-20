@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C3E6A8BA170ECC3E00381FD0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3E6A8B9170ECC3E00381FD0 /* UIKit.framework */; };
+		C3E6A8BC170ECC3E00381FD0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3E6A8BB170ECC3E00381FD0 /* Foundation.framework */; };
+		C3E6A8BE170ECC3E00381FD0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3E6A8BD170ECC3E00381FD0 /* CoreGraphics.framework */; };
+		C3E6A8C4170ECC3E00381FD0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C3E6A8C2170ECC3E00381FD0 /* InfoPlist.strings */; };
+		C3E6A8C6170ECC3E00381FD0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E6A8C5170ECC3E00381FD0 /* main.m */; };
+		C3E6A8CA170ECC3E00381FD0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E6A8C9170ECC3E00381FD0 /* AppDelegate.m */; };
+		C3E6A8CC170ECC3E00381FD0 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C3E6A8CB170ECC3E00381FD0 /* Default.png */; };
+		C3E6A8CE170ECC3E00381FD0 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C3E6A8CD170ECC3E00381FD0 /* Default@2x.png */; };
+		C3E6A8D0170ECC3E00381FD0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C3E6A8CF170ECC3E00381FD0 /* Default-568h@2x.png */; };
+		C3E6A8D8170ECCE200381FD0 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E6A8D7170ECCE200381FD0 /* RootViewController.m */; };
+		C3E6A8DB170ECE0C00381FD0 /* MyWorkerThread.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E6A8DA170ECE0C00381FD0 /* MyWorkerThread.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C3E6A8B6170ECC3E00381FD0 /* NSMachPortDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSMachPortDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3E6A8B9170ECC3E00381FD0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C3E6A8BB170ECC3E00381FD0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C3E6A8BD170ECC3E00381FD0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C3E6A8C1170ECC3E00381FD0 /* NSMachPortDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSMachPortDemo-Info.plist"; sourceTree = "<group>"; };
+		C3E6A8C3170ECC3E00381FD0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C3E6A8C5170ECC3E00381FD0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C3E6A8C7170ECC3E00381FD0 /* NSMachPortDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMachPortDemo-Prefix.pch"; sourceTree = "<group>"; };
+		C3E6A8C8170ECC3E00381FD0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C3E6A8C9170ECC3E00381FD0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C3E6A8CB170ECC3E00381FD0 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C3E6A8CD170ECC3E00381FD0 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		C3E6A8CF170ECC3E00381FD0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C3E6A8D6170ECCE200381FD0 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		C3E6A8D7170ECCE200381FD0 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		C3E6A8D9170ECE0C00381FD0 /* MyWorkerThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyWorkerThread.h; sourceTree = "<group>"; };
+		C3E6A8DA170ECE0C00381FD0 /* MyWorkerThread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyWorkerThread.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3E6A8B3170ECC3E00381FD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3E6A8BA170ECC3E00381FD0 /* UIKit.framework in Frameworks */,
+				C3E6A8BC170ECC3E00381FD0 /* Foundation.framework in Frameworks */,
+				C3E6A8BE170ECC3E00381FD0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C3E6A8AD170ECC3E00381FD0 = {
+			isa = PBXGroup;
+			children = (
+				C3E6A8BF170ECC3E00381FD0 /* NSMachPortDemo */,
+				C3E6A8B8170ECC3E00381FD0 /* Frameworks */,
+				C3E6A8B7170ECC3E00381FD0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C3E6A8B7170ECC3E00381FD0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3E6A8B6170ECC3E00381FD0 /* NSMachPortDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3E6A8B8170ECC3E00381FD0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3E6A8B9170ECC3E00381FD0 /* UIKit.framework */,
+				C3E6A8BB170ECC3E00381FD0 /* Foundation.framework */,
+				C3E6A8BD170ECC3E00381FD0 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3E6A8BF170ECC3E00381FD0 /* NSMachPortDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C3E6A8C8170ECC3E00381FD0 /* AppDelegate.h */,
+				C3E6A8C9170ECC3E00381FD0 /* AppDelegate.m */,
+				C3E6A8D6170ECCE200381FD0 /* RootViewController.h */,
+				C3E6A8D7170ECCE200381FD0 /* RootViewController.m */,
+				C3E6A8D9170ECE0C00381FD0 /* MyWorkerThread.h */,
+				C3E6A8DA170ECE0C00381FD0 /* MyWorkerThread.m */,
+				C3E6A8C0170ECC3E00381FD0 /* Supporting Files */,
+			);
+			path = NSMachPortDemo;
+			sourceTree = "<group>";
+		};
+		C3E6A8C0170ECC3E00381FD0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C3E6A8C1170ECC3E00381FD0 /* NSMachPortDemo-Info.plist */,
+				C3E6A8C2170ECC3E00381FD0 /* InfoPlist.strings */,
+				C3E6A8C5170ECC3E00381FD0 /* main.m */,
+				C3E6A8C7170ECC3E00381FD0 /* NSMachPortDemo-Prefix.pch */,
+				C3E6A8CB170ECC3E00381FD0 /* Default.png */,
+				C3E6A8CD170ECC3E00381FD0 /* Default@2x.png */,
+				C3E6A8CF170ECC3E00381FD0 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C3E6A8B5170ECC3E00381FD0 /* NSMachPortDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3E6A8D3170ECC3E00381FD0 /* Build configuration list for PBXNativeTarget "NSMachPortDemo" */;
+			buildPhases = (
+				C3E6A8B2170ECC3E00381FD0 /* Sources */,
+				C3E6A8B3170ECC3E00381FD0 /* Frameworks */,
+				C3E6A8B4170ECC3E00381FD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSMachPortDemo;
+			productName = NSMachPortDemo;
+			productReference = C3E6A8B6170ECC3E00381FD0 /* NSMachPortDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C3E6A8AE170ECC3E00381FD0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Zogful.Lee;
+			};
+			buildConfigurationList = C3E6A8B1170ECC3E00381FD0 /* Build configuration list for PBXProject "NSMachPortDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C3E6A8AD170ECC3E00381FD0;
+			productRefGroup = C3E6A8B7170ECC3E00381FD0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3E6A8B5170ECC3E00381FD0 /* NSMachPortDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C3E6A8B4170ECC3E00381FD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3E6A8C4170ECC3E00381FD0 /* InfoPlist.strings in Resources */,
+				C3E6A8CC170ECC3E00381FD0 /* Default.png in Resources */,
+				C3E6A8CE170ECC3E00381FD0 /* Default@2x.png in Resources */,
+				C3E6A8D0170ECC3E00381FD0 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3E6A8B2170ECC3E00381FD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3E6A8C6170ECC3E00381FD0 /* main.m in Sources */,
+				C3E6A8CA170ECC3E00381FD0 /* AppDelegate.m in Sources */,
+				C3E6A8D8170ECCE200381FD0 /* RootViewController.m in Sources */,
+				C3E6A8DB170ECE0C00381FD0 /* MyWorkerThread.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C3E6A8C2170ECC3E00381FD0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3E6A8C3170ECC3E00381FD0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C3E6A8D1170ECC3E00381FD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C3E6A8D2170ECC3E00381FD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C3E6A8D4170ECC3E00381FD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSMachPortDemo/NSMachPortDemo-Prefix.pch";
+				INFOPLIST_FILE = "NSMachPortDemo/NSMachPortDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C3E6A8D5170ECC3E00381FD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSMachPortDemo/NSMachPortDemo-Prefix.pch";
+				INFOPLIST_FILE = "NSMachPortDemo/NSMachPortDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C3E6A8B1170ECC3E00381FD0 /* Build configuration list for PBXProject "NSMachPortDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3E6A8D1170ECC3E00381FD0 /* Debug */,
+				C3E6A8D2170ECC3E00381FD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3E6A8D3170ECC3E00381FD0 /* Build configuration list for PBXNativeTarget "NSMachPortDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3E6A8D4170ECC3E00381FD0 /* Debug */,
+				C3E6A8D5170ECC3E00381FD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C3E6A8AE170ECC3E00381FD0 /* Project object */;
+}

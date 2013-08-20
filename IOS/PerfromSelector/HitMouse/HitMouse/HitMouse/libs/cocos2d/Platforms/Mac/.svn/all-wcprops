@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/fxgzappone/!svn/ver/157/1/Developer/IOS/PerfromSelector/HitMouse/HitMouse/HitMouse/libs/cocos2d/Platforms/Mac
+END
+CCWindow.h
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/fxgzappone/!svn/ver/157/1/Developer/IOS/PerfromSelector/HitMouse/HitMouse/HitMouse/libs/cocos2d/Platforms/Mac/CCWindow.h
+END
+CCEventDispatcher.h
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/fxgzappone/!svn/ver/157/1/Developer/IOS/PerfromSelector/HitMouse/HitMouse/HitMouse/libs/cocos2d/Platforms/Mac/CCEventDispatcher.h
+END
+CCDirectorMac.h
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/fxgzappone/!svn/ver/157/1/Developer/IOS/PerfromSelector/HitMouse/HitMouse/HitMouse/libs/cocos2d/Platforms/Mac/CCDirectorMac.h
+END
+CCWindow.m
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/fxgzappone/!svn/ver/157/1/Developer/IOS/PerfromSelector/HitMouse/HitMouse/HitMouse/libs/cocos2d/Platforms/Mac/CCWindow.m
+END
+CCEventDispatcher.m
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/fxgzappone/!svn/ver/157/1/Developer/IOS/PerfromSelector/HitMouse/HitMouse/HitMouse/libs/cocos2d/Platforms/Mac/CCEventDispatcher.m
+END
+CCGLView.h
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/fxgzappone/!svn/ver/157/1/Developer/IOS/PerfromSelector/HitMouse/HitMouse/HitMouse/libs/cocos2d/Platforms/Mac/CCGLView.h
+END
+CCDirectorMac.m
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/fxgzappone/!svn/ver/157/1/Developer/IOS/PerfromSelector/HitMouse/HitMouse/HitMouse/libs/cocos2d/Platforms/Mac/CCDirectorMac.m
+END
+CCGLView.m
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/fxgzappone/!svn/ver/157/1/Developer/IOS/PerfromSelector/HitMouse/HitMouse/HitMouse/libs/cocos2d/Platforms/Mac/CCGLView.m
+END

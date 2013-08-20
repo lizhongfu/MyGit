@@ -1,0 +1,137 @@
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/fxgzappone/!svn/ver/157/1/Developer/IOS/PerfromSelector/GameStartX/GameStartX/GameStartX/libs/cocos2dx/platform/ios
+END
+CCLock.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/fxgzappone/!svn/ver/157/1/Developer/IOS/PerfromSelector/GameStartX/GameStartX/GameStartX/libs/cocos2dx/platform/ios/CCLock.cpp
+END
+CCCommon_ios.mm
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/fxgzappone/!svn/ver/157/1/Developer/IOS/PerfromSelector/GameStartX/GameStartX/GameStartX/libs/cocos2dx/platform/ios/CCCommon_ios.mm
+END
+CCAccelerometer_ios.h
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/fxgzappone/!svn/ver/157/1/Developer/IOS/PerfromSelector/GameStartX/GameStartX/GameStartX/libs/cocos2dx/platform/ios/CCAccelerometer_ios.h
+END
+CCLock.h
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/fxgzappone/!svn/ver/157/1/Developer/IOS/PerfromSelector/GameStartX/GameStartX/GameStartX/libs/cocos2dx/platform/ios/CCLock.h
+END
+ESRenderer.h
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/fxgzappone/!svn/ver/157/1/Developer/IOS/PerfromSelector/GameStartX/GameStartX/GameStartX/libs/cocos2dx/platform/ios/ESRenderer.h
+END
+CCFileUtils_ios.mm
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/fxgzappone/!svn/ver/157/1/Developer/IOS/PerfromSelector/GameStartX/GameStartX/GameStartX/libs/cocos2dx/platform/ios/CCFileUtils_ios.mm
+END
+EAGLView.h
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/fxgzappone/!svn/ver/157/1/Developer/IOS/PerfromSelector/GameStartX/GameStartX/GameStartX/libs/cocos2dx/platform/ios/EAGLView.h
+END
+CCEGLView_ios.mm
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/fxgzappone/!svn/ver/157/1/Developer/IOS/PerfromSelector/GameStartX/GameStartX/GameStartX/libs/cocos2dx/platform/ios/CCEGLView_ios.mm
+END
+CCDirectorCaller.h
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/fxgzappone/!svn/ver/157/1/Developer/IOS/PerfromSelector/GameStartX/GameStartX/GameStartX/libs/cocos2dx/platform/ios/CCDirectorCaller.h
+END
+CCApplication_ios.mm
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/fxgzappone/!svn/ver/157/1/Developer/IOS/PerfromSelector/GameStartX/GameStartX/GameStartX/libs/cocos2dx/platform/ios/CCApplication_ios.mm
+END
+AccelerometerDelegateWrapper.h
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/fxgzappone/!svn/ver/157/1/Developer/IOS/PerfromSelector/GameStartX/GameStartX/GameStartX/libs/cocos2dx/platform/ios/AccelerometerDelegateWrapper.h
+END
+CCThread_ios.mm
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/fxgzappone/!svn/ver/157/1/Developer/IOS/PerfromSelector/GameStartX/GameStartX/GameStartX/libs/cocos2dx/platform/ios/CCThread_ios.mm
+END
+CCAccelerometer_ios.mm
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/fxgzappone/!svn/ver/157/1/Developer/IOS/PerfromSelector/GameStartX/GameStartX/GameStartX/libs/cocos2dx/platform/ios/CCAccelerometer_ios.mm
+END
+ES1Renderer.h
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/fxgzappone/!svn/ver/157/1/Developer/IOS/PerfromSelector/GameStartX/GameStartX/GameStartX/libs/cocos2dx/platform/ios/ES1Renderer.h
+END
+OpenGL_Internal.h
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/fxgzappone/!svn/ver/157/1/Developer/IOS/PerfromSelector/GameStartX/GameStartX/GameStartX/libs/cocos2dx/platform/ios/OpenGL_Internal.h
+END
+CCEGLView_ios.h
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/fxgzappone/!svn/ver/157/1/Developer/IOS/PerfromSelector/GameStartX/GameStartX/GameStartX/libs/cocos2dx/platform/ios/CCEGLView_ios.h
+END
+CCApplication_ios.h
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/fxgzappone/!svn/ver/157/1/Developer/IOS/PerfromSelector/GameStartX/GameStartX/GameStartX/libs/cocos2dx/platform/ios/CCApplication_ios.h
+END
+CCImage_ios.mm
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/fxgzappone/!svn/ver/157/1/Developer/IOS/PerfromSelector/GameStartX/GameStartX/GameStartX/libs/cocos2dx/platform/ios/CCImage_ios.mm
+END
+ES1Renderer.m
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/fxgzappone/!svn/ver/157/1/Developer/IOS/PerfromSelector/GameStartX/GameStartX/GameStartX/libs/cocos2dx/platform/ios/ES1Renderer.m
+END
+EAGLView.mm
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/fxgzappone/!svn/ver/157/1/Developer/IOS/PerfromSelector/GameStartX/GameStartX/GameStartX/libs/cocos2dx/platform/ios/EAGLView.mm
+END
+CCDirectorCaller.mm
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/fxgzappone/!svn/ver/157/1/Developer/IOS/PerfromSelector/GameStartX/GameStartX/GameStartX/libs/cocos2dx/platform/ios/CCDirectorCaller.mm
+END
+AccelerometerDelegateWrapper.mm
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/fxgzappone/!svn/ver/157/1/Developer/IOS/PerfromSelector/GameStartX/GameStartX/GameStartX/libs/cocos2dx/platform/ios/AccelerometerDelegateWrapper.mm
+END

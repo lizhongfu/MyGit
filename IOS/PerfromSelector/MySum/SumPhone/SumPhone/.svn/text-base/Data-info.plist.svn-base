@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>数据存储方式</string>
+		<key>ViewControllers</key>
+		<array>
+			<string>NSKeyedArchiverViewController</string>
+			<string>ViewBase</string>
+			<string>ViewBase</string>
+			<string>ViewBase</string>
+		</array>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>数据下载</string>
+		<key>ViewControllers</key>
+		<array>
+			<string>dispatch_asyncViewController</string>
+			<string>ViewBase</string>
+			<string>ViewBase</string>
+		</array>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>动画</string>
+		<key>ViewControllers</key>
+		<array>
+			<string>ViewBase</string>
+			<string>ViewBase</string>
+		</array>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Demos</string>
+		<key>ViewControllers</key>
+		<array>
+			<string>ViewBase</string>
+			<string>ViewBase</string>
+			<string>ViewBase</string>
+			<string>ViewBase</string>
+		</array>
+	</dict>
+</array>
+</plist>
